@@ -742,8 +742,8 @@ form textarea.style-2 {
 /* wg-about */
 /* ------------------------------ */
 .wg-about {
-    padding-top: 112px;
-    padding-bottom: 135px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-image: url(../images/bg-section/about-bg1.png);
     background-repeat: no-repeat;
     background-position: 100% 60%;
@@ -1166,7 +1166,7 @@ form textarea.style-2 {
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: #FFF;
+    background-color: #bb7854;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1394,8 +1394,8 @@ form textarea.style-2 {
 /* private-event */
 /* ---------------------------------- */
 .private-event {
-    padding-top: 135px;
-    padding-bottom: 219px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .private-event .image {
@@ -1594,7 +1594,7 @@ form textarea.style-2 {
     padding-right: 157px;
     padding-top: 97px;
     margin-top: -36px;
-    padding-bottom: 88px;
+    padding-bottom: 75px;
     background-image: url(../images/bg-service.png);
     background-position: 0px 11px;
     background-color: transparent;

@@ -1909,8 +1909,8 @@ a:focus {
 
 .footer > .item-2 {
     position: absolute;
-    top: -29px;
-    right: -9px;
+    top: 5px;
+    right: 10px;
 }
 
 .footer .title-wg {
@@ -1937,7 +1937,7 @@ a:focus {
 .footer .text {
     font-family: 'DM Sans';
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     line-height: 25px;
     color: #dedede;
     letter-spacing: 0.3px;
@@ -2696,4 +2696,21 @@ input:checked ~ .btn-checkbox:after {
     z-index: 9999;
     width: 40px;
     right: 36px;
+}
+
+.email{
+    color: #fff;
+}
+
+.email:hover{
+    color: #f6e8b7;
+}
+
+.menu-primary-menu .current-menu-item a{
+    color: #f6e8b7;
+    font-weight: 600;
+}
+.icon-checkmark::before{
+     color: #fff !important;
+
 }
