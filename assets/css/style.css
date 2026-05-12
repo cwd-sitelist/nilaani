@@ -1478,12 +1478,12 @@ a:focus {
     text-transform: uppercase;
     letter-spacing: 2.2px;
 }
-/* 
+
 .menu-primary-menu li.current-menu-item > a::before {
     position: absolute;
     content: url(../icon/coffee-2.svg);
     left: -25px;
-} */
+} 
 
 .menu-primary-menu > li > a:hover {
     color: #f6e8b7;
@@ -2713,4 +2713,7 @@ input:checked ~ .btn-checkbox:after {
 .icon-checkmark::before{
      color: #fff !important;
 
+}
+#logo_footer{
+    width: 150px !important;
 }

@@ -457,7 +457,9 @@ form textarea.style-2 {
 .page-title-home .slide-2 {
     background-image: url(../images/home-banner2.png);
 }
-
+.page-title-home .slide-3 {
+    background-image: url(../images/home-banner3.png);
+}
 .page-title-home .swiper-container .swiper-pagination.style-2 {
     bottom: 193px;
 }
