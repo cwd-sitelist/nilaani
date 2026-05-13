@@ -1481,7 +1481,7 @@ a:focus {
 
 .menu-primary-menu li.current-menu-item > a::before {
     position: absolute;
-    content: url(../icon/coffee-2.svg);
+    content: url(../images/coffee-white.svg);
     left: -25px;
 } 
 
@@ -2187,7 +2187,7 @@ input:checked ~ .btn-checkbox:after {
 .banner-page.menu-page {
     padding-top: 303px;
     padding-bottom: 57px;
-    background-image: url(../images/bg-section/bg-menu.jpg);
+    background-image: url(../images/menu-banner.png);
 }
 
 .banner-page.reservation-page {
@@ -2199,13 +2199,13 @@ input:checked ~ .btn-checkbox:after {
 .banner-page.contact-page {
     padding-top: 303px;
     padding-bottom: 57px;
-    background-image: url(../images/bg-section/bg-contact.jpg);
+    background-image: url(../images/restaurant-banner.png);
 }
 
 .banner-page.about-page {
     padding-top: 303px;
     padding-bottom: 57px;
-    background-image: url(../images/bg-section/bg-about.jpg);
+    background-image: url(../images/aboutbanner.png);
 }
 
 .banner-page.offer-page {
@@ -2217,7 +2217,7 @@ input:checked ~ .btn-checkbox:after {
 }
 
 .banner-page.portfolio-page {
-    background-image: url(../images/bg-section/bg-portfolio.jpg);
+    background-image: url(../images/gallery-banner.png);
 }
 
 .banner-page.event-page {
@@ -2717,3 +2717,111 @@ input:checked ~ .btn-checkbox:after {
 #logo_footer{
     width: 150px !important;
 }
+
+
+.gallery-section{
+    padding:60px 5%;
+    background:#f3f3f3;
+}
+
+.gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-auto-rows:220px;
+    gap:18px;
+}
+
+/* Common Style */
+.gallery-item{
+    overflow:hidden;
+    border-radius:18px;
+}
+
+.gallery-item img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    display:block;
+    transition:0.5s;
+}
+
+.gallery-item:hover img{
+    transform:scale(1.06);
+}
+
+/* Layout Sizes */
+.large{
+    grid-column:span 2;
+    grid-row:span 2;
+}
+
+.small{
+    grid-column:span 1;
+    grid-row:span 1;
+}
+
+.wide{
+    grid-column:span 2;
+    grid-row:span 1;
+}
+
+/* Tablet */
+@media(max-width:991px){
+
+    .gallery-grid{
+        grid-template-columns:repeat(2,1fr);
+        grid-auto-rows:200px;
+    }
+
+    .large,
+    .wide{
+        grid-column:span 2;
+    }
+}
+
+/* Mobile */
+@media(max-width:576px){
+
+    .gallery-grid{
+        grid-template-columns:1fr;
+        grid-auto-rows:auto;
+    }
+
+    .large,
+    .small,
+    .wide{
+        grid-column:span 1;
+        grid-row:span 1;
+    }
+
+    .gallery-item img{
+        height:280px;
+    }
+}
+
+   /* Lightbox Button Style */
+        .gclose,
+        .gnext,
+        .gprev {
+            width: 50px !important;
+            height: 50px !important;
+            background: rgba(255, 255, 255, 0.15) !important;
+            border-radius: 50% !important;
+            backdrop-filter: blur(8px);
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .gclose svg,
+        .gnext svg,
+        .gprev svg {
+            width: 22px;
+            height: 22px;
+        }
+
+        .gclose:hover,
+        .gnext:hover,
+        .gprev:hover {
+            background: #bb7854 !important;
+        }

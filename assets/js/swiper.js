@@ -1,4 +1,51 @@
 
+// var sliderinit = function() {
+
+//     // basic options for all sliders
+//     let defaults = {
+//         spaceBetween: 0,
+//         slidesPerView: 1,
+
+//         autoplay: {
+//             delay: 3000, // 2 seconds
+//             disableOnInteraction: false,
+//         },
+
+//         loop: true 
+//     };
+
+//     // call init function
+//     initSwipers(defaults);
+
+//     function initSwipers(defaults = {}, selector = ".swiper-container") {
+
+//         let swipers = document.querySelectorAll(selector);
+
+//         swipers.forEach((swiper) => {
+
+//             // get options
+//             let optionsData = swiper.dataset.swiper
+//                 ? JSON.parse(swiper.dataset.swiper)
+//                 : {};
+
+            
+//             let options = {
+//                 ...defaults,
+//                 ...optionsData
+//             };
+
+           
+//             new Swiper(swiper, options);
+//         });
+//     }
+// }
+
+// sliderinit();
+
+
+
+
+
 var sliderinit = function() {
 
     // basic options for all sliders
