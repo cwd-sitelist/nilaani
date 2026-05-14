@@ -1167,8 +1167,8 @@ form textarea.style-2 {
 }
 
 .special-menu.style-1 {
-    padding-top: 112px;
-    padding-bottom: 84px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 /* choose-us */
@@ -2710,9 +2710,9 @@ a.mapboxgl-ctrl-logo {
 }
 
 /* wg-map */
-.wg-map {
-    padding-top: 122px;
-}
+/* .wg-map {
+    padding-top: 30px;
+} */
 
 .wg-map .wrap {
     height: 533px;
@@ -2721,8 +2721,8 @@ a.mapboxgl-ctrl-logo {
 /* wg-contact-us */
 /* ------------------------------- */
 .wg-contact-us {
-    padding-top: 121px;
-    padding-bottom: 135px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .wg-contact-us .left {
@@ -2773,7 +2773,7 @@ a.mapboxgl-ctrl-logo {
     width: 53px;
     height: 53px;
     border-radius: 5px;
-    background-color: #C3A27C;
+    background-color: #bb7854;
     color: #FFF;
     font-size: 34px;
     margin-bottom: 20px;
@@ -3318,25 +3318,25 @@ a.mapboxgl-ctrl-logo {
 
 .private-item .right img {
     width: 100%;
-    height: 554px;
+    height: 100%;
     object-fit: cover;
 }
 
 .private-item:last-child .content {
-    padding: 122px 140px 0px 153px;
+    padding: 50px 50px 50px 50px;
 }
 
 .private-item:last-child .right img {
-    height: 557px;
+    height: 100%;
 }
 
 .private-item .content {
-    background-color: #faf1e3;
-    padding: 120px 140px 0px 153px;
+    background-color: #f6e8b7;
+    padding: 50px 50px 50px 50px;
 }
 
 .private-item.row-reverse .content {
-    padding: 120px 135px 0px 161px;
+    padding: 50px 50px 50px 50px;
 }
 
 .private-item .content .title {

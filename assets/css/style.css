@@ -1745,7 +1745,7 @@ a:focus {
     color: #C3A27C;
 }
 
-#menu-mobile-menu li.menu-item-has-children-mobile > a::after {
+/* #menu-mobile-menu li.menu-item-has-children-mobile > a::after {
     content: '\e904';
     position: absolute;
     font-family: 'icomoon';
@@ -1759,7 +1759,7 @@ a:focus {
     -ms-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-}
+} */
 
 #menu-mobile-menu>li.active a::after {
     transform: rotate(180deg);
@@ -2825,3 +2825,29 @@ input:checked ~ .btn-checkbox:after {
         .gprev:hover {
             background: #bb7854 !important;
         }
+
+.menu-list {
+    padding: 0;
+    margin: 25px 0 0;
+}
+
+.menu-list li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px dashed #000;
+}
+
+.menu-name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #bb7854;
+}
+
+.menu-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #bb7854;
+}
