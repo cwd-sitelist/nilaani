@@ -1217,7 +1217,7 @@ a:focus {
 
 .header-top {
     margin-top: 20px;
-    margin-bottom: 27px;
+    margin-bottom: 0px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -1911,6 +1911,7 @@ a:focus {
     position: absolute;
     top: 5px;
     right: 10px;
+    opacity: 0.3;
 }
 
 .footer .title-wg {
