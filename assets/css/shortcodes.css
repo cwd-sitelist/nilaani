@@ -693,7 +693,7 @@ form textarea.style-2 {
     top: 67px;
   
     width: 403px;
-    padding: 60px 40px 50px;
+    padding: 30px 30px 30px;
     background-color: #FFF;
     border-radius: 20px;
     text-align: center;
@@ -771,7 +771,7 @@ form textarea.style-2 {
 }
 
 .wg-welcom ul.time {
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .wg-welcom ul.time li {
@@ -2649,8 +2649,8 @@ a.mapboxgl-ctrl-logo {
 }
 
 .follow-instagram.style-1 {
-    padding-top: 136px;
-    padding-bottom: 156px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* wg-counter */
