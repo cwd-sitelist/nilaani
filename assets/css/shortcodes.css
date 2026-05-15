@@ -506,6 +506,8 @@ form textarea.style-2 {
 .page-title.slide-3 .buttons{
     position: relative;
     z-index: 9999;
+    margin-bottom: -10px;
+
 }
 
 /* Responsive */
@@ -568,6 +570,7 @@ form textarea.style-2 {
     justify-content: center;
     gap: 15px;
     flex-wrap: wrap;
+    margin-top: 30px;
 }
 
 /* home-2 */
@@ -856,7 +859,7 @@ form textarea.style-2 {
     min-width: 398px;
     height: max-content;
     margin-top: 78px;
-    padding: 49px 86px 42px 37px;
+    /* padding: 49px 86px 42px 37px; */
     background-color: #bb7854;
     border-radius: 10px;
     position: relative;
@@ -1982,6 +1985,7 @@ form textarea.style-2 {
     letter-spacing: 1px;
     margin: auto;
     margin-bottom: 7px;
+    color: #f6e8b7;
 }
 
 .coffee-post-item .content .name a {
@@ -2936,7 +2940,7 @@ a.mapboxgl-ctrl-logo {
 /* cake-bakery */
 /* ------------------------------------ */
 .cake-bakery {
-    padding-top: 113px;
+    padding-top: 50px;
     padding-bottom: 51px;
 }
 
@@ -3346,6 +3350,7 @@ a.mapboxgl-ctrl-logo {
     margin-bottom: 25px;
     text-transform: uppercase;
     letter-spacing: 1.4px;
+    color: #000;
 }
 
 .private-item .content ul {
@@ -3415,14 +3420,14 @@ a.mapboxgl-ctrl-logo {
 .swiper-button-prev.style-3::after {
     font-family: 'icomoon';
     content: '\ea40';
-    color: #969391;
+    color: #fff;
     font-size: 15px;
 }
 
 .swiper-button-next.style-3::after {
     font-family: 'icomoon';
     content: '\ea3c';
-    color: #969391;
+    color: #fff;
     font-size: 15px;
 }
 
